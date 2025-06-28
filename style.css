@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.header{
+    background-color:#333;
+    position:sticky;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.header h1{
+    color:cyan;
+}
+body{
+    background-color:gray;
+    color:aliceblue;
+}
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:60px;
+    gap:60px;
+
+}
+#box{
+    width:100px;
+    height:100px;
+    
+}
+.div-box{
+    background-color:red;
+}
+.arrow{
+    font-size:50px;
+}
+#box-button{
+    font-size:20px;
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+
+}
+#box-button:hover{
+    background-color:lightblue;
+    cursor:pointer;
+    transition:0.3s ease;
+    transform:scale(1.1);
+}
+h3{
+    padding:0 20px;
+}
+#addbutton{
+    padding:10px 10px;
+    border:2px black solid;
+    border-radius:10px;
+    margin:20px 20px;
+    font-size:15px;
+        
+}
+#addbutton:hover{
+    transition:0.3s ease all;
+    transform:scale(1.1);
+    background-color:lightblue;
+    cursor:pointer;
+}
+#first-list{
+    list-style-type:square;
+    padding:0 40px;
+}
+#removebutton{
+    padding:10px 10px;
+    border:2px black solid;
+    border-radius:10px;
+    margin:20px 20px;
+    font-size:15px;
+}
+.button-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:70px;
+}
+#removebutton:hover{
+    transition:0.3s ease all;
+    transform:scale(1.1);
+    background-color:lightblue;
+    cursor:pointer;
+
+}
+.changeColor{
+    background-color:blue;
+}
+.actualText{
+    padding:10PX 20px;
+    font-size :25px;
+    color:black;
+}
+.actualText:hover{
+    cursor:pointer;
+    transition:0.3s ease;
+
+}
+.paragraph-container{
+    border:2px solid black;
+    border-radius:10px;
+    margin:10px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:lightgray;
+}
+h4{
+    padding:0 20px;
+    font:italic;
+}
+
+
